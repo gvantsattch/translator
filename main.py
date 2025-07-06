@@ -1,7 +1,7 @@
 import sys
 from PyQt5.QtWidgets import QApplication, QMainWindow
-from translator.ui_translator import Ui_MainWindow
-from translator.app import TranslatorLogic
+from ui_translator import Ui_MainWindow
+from app import TranslatorLogic
 
 class MainWindow(QMainWindow, Ui_MainWindow):
     def __init__(self):
